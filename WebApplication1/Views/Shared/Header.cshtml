@@ -1,0 +1,124 @@
+﻿
+    <!-- Preloader -->
+<div class="preloader d-flex align-items-center justify-content-center">
+    <div class="preloader-circle"></div>
+    <div class="preloader-img">
+        <img src="~/Assets/img/core-img/leaf.png" alt="">
+    </div>
+</div>
+<!-- ##### Header Area Start ##### -->
+<header class="header-area">
+    <!-- ***** Top Header Area ***** -->
+    <div class="top-header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="top-header-content d-flex align-items-center justify-content-between">
+                        <!-- Top Header Content -->
+                        <div class="top-header-meta">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="loc.nguyen@vitopmedia.co"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: loc.nguyen@vitopmedia.co</span></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="+0 396 929 251"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +0 396 929 251</span></a>
+                        </div>
+                        <!-- Top Header Content -->
+                        <div class="top-header-meta d-flex">
+                            <!-- Language Dropdown -->
+                            <div class="language-dropdown">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ngôn ngữ</button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">USA</a>
+                                        <a class="dropdown-item" href="#">UK</a>
+                                        <a class="dropdown-item" href="#">Tiếng Việt</a>
+                                        <a class="dropdown-item" href="#">Tiếng Hàn</a>   
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Login -->
+                            <div class="login">
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Đăng nhập</span></a>
+                            </div>
+                            <!-- Cart -->
+                            <div class="cart">
+                                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Cart <span class="cart-quantity">(1)</span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Navbar Area ***** -->
+    <div class="alazea-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="alazeaNav">
+                    <!-- Nav Brand -->
+                    <a href="index.html" class="nav-brand"><img src="~/Assets/img/core-img/logo.png" alt=""></a>
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Navbar Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
+                                <li><a href="@Url.Action("Index","About")">Về chúng tôi</a></li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                    <ul class="dropdown">
+                    
+                                        <li><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
+                                        <li><a href="@Url.Action("Index","About")">Về chúng tôi</a></li>
+                                        <li>
+                                            <a href="@Url.Action("Index","Tour")">Tour du lịch</a>
+                                            <ul class="dropdown">
+                                                <li><a href="@Url.Action("Index","Tour")">Tour du lịch</a></li>
+                                                <li><a href="shop-details.html">Tour Details</a></li>
+                                                <li><a href="cart.html">Tour Cart</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                            </ul>
+                                        </li>
+                            
+                                        <li>
+                                            <a href="blog.html">Blog</a>
+                                            <ul class="dropdown">
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="single-post.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="@Url.Action("Index","Contact")">Liên hệ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="@Url.Action("Index","Tour")">Tour du lịch</a></li>
+                                
+                                <li><a href="@Url.Action("Index","Contact")">Liên hệ</a></li>
+                            </ul>
+                            <!-- Search Icon -->
+                            <div id="searchIcon">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- Navbar End -->
+                    </div>
+                </nav>
+                <!-- Search Form -->
+                <div class="search-form">
+                    <form action="#" method="get">
+                        <input type="search" name="search" id="search" placeholder="Tìm kiếm">
+                        <button type="submit" class="d-none"></button>
+                    </form>
+                    <!-- Close Icon -->
+                    <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ##### Header Area End ##### -->
